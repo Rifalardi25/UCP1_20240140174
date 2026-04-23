@@ -12,7 +12,25 @@
 
     <h1>Galeri Multimedia</h1>
 
+    <div class="media-container">
+        <h2>Gambar Tech</h2>
+        <img id="gambarTech" src="https://via.placeholder.com/300x150" alt="Tech Image"><br>
+        <button onclick="gantiGambar()">Ganti Gambar</button>
+    </div>
 
+    <div class="media-container">
+        <h2>Video Pembelajaran</h2>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/jNQXAC9IVRw" title="YouTube video"></iframe>
+    </div>
+
+    <div class="media-container">
+        <h2>Audio Musik Santai</h2>
+        <audio id="audioTech" controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung elemen audio.
+        </audio><br>
+        <button onclick="kontrolAudio()">Play / Pause Audio</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
