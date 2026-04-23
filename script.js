@@ -34,3 +34,13 @@ if (formDaftar) {
     });
 }
 
+function gantiGambar() {
+    const img = document.getElementById('gambarTech');
+    // Ganti gambar bergantian berdasarkan kata kunci URL
+    if (img.src.includes("300x150")) {
+        img.src = "https://via.placeholder.com/300x160/0000FF/808080 ?Text=Gambar+Baru";
+    } else {
+        img.src = "https://via.placeholder.com/300x150";
+    }
+}
+
