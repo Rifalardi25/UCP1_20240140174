@@ -12,7 +12,23 @@
 
     <h1>Form Pendaftaran Anggota Baru</h1>
     
+    <form id="formDaftar">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" required><br><br>
 
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" required><br><br>
+
+        <label for="minat">Bidang Minat:</label><br>
+        <select id="minat" required>
+            <option value="Web Development">Web Development</option>
+            <option value="Data Science">Data Science</option>
+            <option value="UI/UX Design">UI/UX Design</option>
+            <option value="Cyber Security">Cyber Security</option>
+        </select><br><br>
+
+        <button type="submit">Kirim Data</button>
+    </form>
 
     <div id="hasilInput"></div>
 
