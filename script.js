@@ -44,3 +44,12 @@ function gantiGambar() {
     }
 }
 
+function kontrolAudio() {
+    const audio = document.getElementById('audioTech');
+    if (audio.paused) {
+        audio.play();
+        alert("Audio mulai diputar!");
+    } else {
+        audio.pause();
+    }
+}
